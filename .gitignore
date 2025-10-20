@@ -1,1 +1,72 @@
-.zip
+# ============================================
+# ARCHIVO GITIGNORE BÁSICO Y GENERAL
+# ============================================
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+*.lock
+
+# Archivos de compilación o salida
+dist/
+build/
+out/
+bin/
+obj/
+target/
+
+# Archivos de dependencias
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+*.pyo
+*.class
+
+# Entornos virtuales
+.env
+.venv/
+venv/
+env/
+
+# Configuración local de IDEs o editores
+.vscode/
+.idea/
+*.iml
+
+# Archivos de test o cobertura
+coverage/
+*.coverage
+*.lcov
+.nyc_output/
+
+# Archivos de sistema de control de versiones antiguos
+.svn/
+CVS/
+
+# Archivos de configuración privada
+*.env.local
+*.secret
+*.key
+*.pem
+
+# Archivos de backups
+*.orig
+*.old
+*.bak
+
+# Archivos generados por compresores o empaquetadores
+*.zip
+*.tar
+*.gz
+*.tgz
+*.7z
